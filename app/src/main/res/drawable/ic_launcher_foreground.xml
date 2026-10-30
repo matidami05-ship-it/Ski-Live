@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- a black island pill with a live dot and progress bar -->
+    <path android:fillColor="#FF1E1E26" android:pathData="M30,40h48a10,10 0 0 1 0,20h-48a10,10 0 0 1 0,-20z" />
+    <path android:fillColor="#FF3DFF8B" android:pathData="M36,50m-4,0a4,4 0 1 0 8,0a4,4 0 1 0 -8,0" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M46,47h24a3,3 0 0 1 0,6h-24a3,3 0 0 1 0,-6z" />
+    <path android:fillColor="#FF3D8BFF" android:pathData="M32,66h44a2,2 0 0 1 0,4h-44a2,2 0 0 1 0,-4z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M32,66h26a2,2 0 0 1 0,4h-26a2,2 0 0 1 0,-4z" />
+</vector>
