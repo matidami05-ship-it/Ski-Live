@@ -111,7 +111,8 @@ object LiveNotifier {
 
         if (Build.VERSION.SDK_INT >= 36) {
             // Android 16 Live Updates: lock screen card, status bar chip, Samsung Now Bar.
-            if (r.ongoing) b.setRequestPromotedOngoing(true)
+            // Notification.EXTRA_REQUEST_PROMOTED_ONGOING
+            if (r.ongoing) b.addExtras(android.os.Bundle().apply { putBoolean("android.requestPromotedOngoing", true) })
             r.chip?.let { b.setShortCriticalText(it) }
             val f = r.fraction
             if (f != null) {
